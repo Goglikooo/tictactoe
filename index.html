@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+
+<div class="winning">
+    <h1 class="main-text">Tic-Tac-Toe!</h1>
+</div>
+
+<div class="container3">
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+    <div class="yuti"></div>
+</div>
+  
+
+
+<div class="scores">
+    <div class="scoretext scoretextx">X-score:0</div>
+    <div class="scoretext scoretexto">O-score:0</div>
+</div>
+
+<div class="buttons">
+<button class="gilaki replay-gilaki">Replay</button>
+<button class="gilaki reset-gilaki">Reset</button>
+</div>
+
+
+<script src="tictactoe.js"></script> 
+</body>
+<style>
+
+
+
+.winning {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+.scoretext {
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+}
+
+.gilaki {
+    background-color: rgb(24, 197, 197);
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 32px;
+    font-family: monospace;
+}
+
+
+.buttons {
+    width: 615px;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.scores{
+    width: 615px;
+    border: 5px dashed red;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 615px;
+  height: 610px;
+  margin: 20px auto;
+}
+
+.yuti {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  font-size: 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+</style>
+</html>
