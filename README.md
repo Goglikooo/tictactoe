@@ -6,4 +6,4 @@
 
 ---------------------------------------
 
-[Link to the Website]([https://goglikooo.github.io/tictactoe/)
+[Link to the Website](https://goglikooo.github.io/tictactoe/)
