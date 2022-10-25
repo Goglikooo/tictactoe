@@ -1,3 +1,9 @@
 # Tic-Tac-Toe 
-## 
-[https://goglikooo.github.io/tictactoe/](The Link to the game)
+
+---------------------------------------
+
+> This is a popular game, made with HTML, CSS and Javascript.
+
+---------------------------------------
+
+[Link to the Website]([https://goglikooo.github.io/tictactoe/)
